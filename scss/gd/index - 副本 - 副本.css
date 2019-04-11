@@ -1,0 +1,643 @@
+.col-1 {
+  width: 4.16667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-2 {
+  width: 8.33333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-3 {
+  width: 12.5%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-4 {
+  width: 16.66667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-5 {
+  width: 20.83333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-6 {
+  width: 25%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-7 {
+  width: 29.16667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-8 {
+  width: 33.33333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-9 {
+  width: 37.5%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-10 {
+  width: 41.66667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-11 {
+  width: 45.83333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-12 {
+  width: 50%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-13 {
+  width: 54.16667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-14 {
+  width: 58.33333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-15 {
+  width: 62.5%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-16 {
+  width: 66.66667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-17 {
+  width: 70.83333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-18 {
+  width: 75%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-19 {
+  width: 79.16667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-20 {
+  width: 83.33333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-21 {
+  width: 87.5%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-22 {
+  width: 91.66667%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-23 {
+  width: 95.83333%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.col-24 {
+  width: 100%;
+  float: left;
+  padding: 5px 15px 0;
+}
+
+.header-gd {
+  background: url(../../images/logo-gd.png) no-repeat center;
+  background-size: 35.72% 100%;
+}
+
+.seachBox {
+  width: 504px;
+  height: 35px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.seachBox input {
+  width: 404px;
+  border: 1px solid #2381f5;
+  height: 35px;
+  text-indent: 1em;
+  color: #fff;
+  background: transparent;
+}
+
+.seachBox input::-webkit-input-placeholder {
+  color: #2381f5;
+  text-indent: 1em;
+}
+
+.seachBox span {
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  background: #2381f5;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.swiper-container {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.swiper-container .slide-title {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #a2aafe;
+  margin-bottom: 20px;
+}
+
+.swiper-container .type-list {
+  width: 100%;
+}
+
+.swiper-container .type-list > li {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: white;
+  padding: 10px 10px;
+  background: #2381f5;
+  opacity: 0.9;
+  display: inline-block;
+  width: 24.3%;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.swiper-container .swiper-pagination-bullet {
+  background: transparent;
+  border: 1px solid #007aff;
+  opacity: 1;
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+  background: #007aff !important;
+}
+
+.chart1 {
+  width: 100%;
+  height: 330px;
+}
+
+.chart2,
+.chart3,
+.chart4,
+.chart5 {
+  width: 100%;
+  height: 300px;
+}
+
+.chart2 .chart-content {
+  margin: 0 auto;
+  width: 110px;
+  height: 100%;
+  background: url("../../images/gd-img.png") no-repeat center;
+  text-align: center;
+  position: relative;
+}
+
+.chart2 .chart-content .caseNum {
+  font-size: 14px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 51%;
+  position: relative;
+}
+
+.chart2 .chart-content .caseNum em {
+  color: #f8e71c;
+  font-size: 16px;
+}
+
+.chart2 .chart-content .caseNum p {
+  margin-top: 5px;
+}
+
+.chart2 .chart-content .circleItem {
+  background: url("../../images/gd-img2.png") no-repeat center;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chart2 .chart-content .topleft {
+  top: 20px;
+  left: -25px;
+}
+
+.chart2 .chart-content .topleft::before {
+  content: '';
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  background: #16b1f0;
+  right: -20px;
+  bottom: -16px;
+  -webkit-transform: rotate(49deg);
+          transform: rotate(49deg);
+}
+
+.chart2 .chart-content .topright {
+  top: 30px;
+  left: 100px;
+}
+
+.chart2 .chart-content .topright::before {
+  content: '';
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  background: #16b1f0;
+  right: 46px;
+  bottom: -7px;
+  -webkit-transform: rotate(-49deg);
+          transform: rotate(-49deg);
+}
+
+.chart2 .chart-content .bottomleft {
+  bottom: 30px;
+  left: -80px;
+}
+
+.chart2 .chart-content .bottomleft::before {
+  content: '';
+  width: 66px;
+  height: 1px;
+  position: absolute;
+  background: #16b1f0;
+  left: 24px;
+  top: -20px;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.chart2 .chart-content .bottomright {
+  bottom: 30px;
+  right: -70px;
+}
+
+.chart2 .chart-content .bottomright::before {
+  content: '';
+  width: 57px;
+  height: 1px;
+  position: absolute;
+  background: #16b1f0;
+  right: 24px;
+  top: -18px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+}
+
+.chart2 .chart-content .tip {
+  position: absolute;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #c2dfff;
+  z-index: 9;
+  display: none;
+}
+
+.chart2 .chart-content .tip p {
+  text-align: left;
+  padding: 2px 0;
+}
+
+.chart2 .chart-content .tip em {
+  text-indent: 5px;
+  display: inline-block;
+}
+
+.chart2 .chart-content .tl-info {
+  top: 20px;
+  left: -130px;
+}
+
+.chart2 .chart-content .tr-info {
+  top: 20px;
+  right: -150px;
+}
+
+.chart2 .chart-content .bl-info {
+  bottom: 5px;
+  left: -8px;
+}
+
+.chart2 .chart-content .br-info {
+  bottom: 40px;
+  right: -160px;
+}
+
+.pop-bg {
+  background: rgba(20, 19, 40, 0.7);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.pop-searchWrapper {
+  z-index: 100;
+  display: none;
+}
+
+.pop-searchWrapper .pop {
+  display: block;
+}
+
+.pop-searchResultsWrapper {
+  z-index: 101;
+  display: none;
+}
+
+.pop-searchResultsWrapper .pop {
+  display: block;
+}
+
+.pop-search {
+  width: 720px;
+  height: 35px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 45px;
+}
+
+.pop-search input {
+  width: 620px;
+  border: 1px solid #2381f5;
+  height: 45px;
+  text-indent: 1em;
+  color: #fff;
+  background: transparent;
+}
+
+.pop-search input::-webkit-input-placeholder {
+  color: #2381f5;
+  text-indent: 1em;
+}
+
+.pop-search span {
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  background: #2381f5;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.pop-search .icon-search {
+  margin-right: 8px;
+}
+
+.re-cont {
+  padding: 10px 50px;
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.re-cont2 {
+  width: 1250px;
+  padding: 0;
+}
+
+.pop-search2 {
+  margin: 45px 0 0 0;
+  width: 600px;
+}
+
+.pop-search2 input {
+  width: 500px;
+}
+
+.dl-item {
+  position: relative;
+  line-height: 40px;
+  margin-bottom: 5px;
+  padding-left: 130px;
+}
+
+.dl-item dt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #a2aafe;
+  width: 110px;
+  text-align: right;
+}
+
+.dl-item dd .all.active ~ span {
+  background: rgba(64, 45, 195, 0.65);
+  color: #fff;
+}
+
+.dl-item dd span {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #2381f5;
+  margin: 0 20px 10px 0;
+  width: 120px;
+  background: #2381f5;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.dl-item dd span.active {
+  background: rgba(64, 45, 195, 0.65);
+  color: #fff;
+}
+
+.re-cont2 .tip {
+  font-size: 15px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.re-cont2 em {
+  color: #f8e71c;
+}
+
+.re-cont2 table tbody tr {
+  color: #c2dfff;
+  font-size: 15px !important;
+  background: transparent !important;
+}
+
+.tablenor table thead th {
+  color: #fff;
+  background: #324fcc;
+  opacity: 0.9;
+  font-size: 15px;
+  text-align: center;
+  line-height: 2.3;
+  border: 1px solid #4250d3;
+  vertical-align: middle;
+}
+
+.result-item {
+  margin-bottom: 20px;
+}
+
+.result-item table {
+  margin-bottom: 10px;
+}
+
+.result-item .btns button {
+  width: 310px;
+  height: 35px;
+  background: #2381f5;
+  border: none;
+  font-size: 15px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #c2dfff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.table1Animation {
+  -webkit-animation: tableDispaly 1s;
+          animation: tableDispaly 1s;
+}
+
+@-webkit-keyframes tableDispaly {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes tableDispaly {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+.chartAnimation {
+  -webkit-animation: circleDisplay 0.5s;
+          animation: circleDisplay 0.5s;
+}
+
+.chartAnimation .circleItem {
+  opacity: 0;
+}
+
+.circleAnimation {
+  -webkit-animation: circleDisplay 0.5s 1s;
+          animation: circleDisplay 0.5s 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes circleDisplay {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes circleDisplay {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=index - 副本 - 副本.css.map */

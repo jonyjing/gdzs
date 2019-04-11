@@ -1,0 +1,15 @@
+{
+  "px2vw.width": 1600,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,// 每次保存的时候将代码按eslint格式进行修复
+  "liveSassCompile.settings.formats": [
+    {
+      "extensionName": ".css",
+      "savePath": "css/"
+    },{
+      "extensionName": ".css",
+      "savePath": "css/gd/"    
+    }
+  ],
+  "liveSassCompile.settings.includeItems": ["scss/style.scss","scss/gd/index.scss"],
+}

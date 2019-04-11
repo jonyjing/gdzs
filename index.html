@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>专利外观线上侵权假冒鉴别</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/gd/index.css">
+</head>
+<body>
+<div class="doc gd-doc">
+	<div class="header header-gd">
+		<ul class="menu">
+			<li><a href="gd/index.html">会展案件</a></li>
+			<li class="cur"><a href="index.html">专利外观线上侵权假冒鉴别</a></li>
+		</ul>
+	</div>
+	<div class="wrapper clearfix">
+		<ul class="slide-menu" id="slide-menu">
+			<li class="rect rect1 cur">
+				<span class="left">
+					<span class="icon icon-baohu"></span>
+					<span>保护范围</span>
+				</span>
+				<span class="line"></span>
+				<span class="right">
+					<span>专利</span>
+					<span><i id="menu_count1" class="flipInX" style="display: inline-block;">4895</i>件</span>
+				</span>
+			</li>
+			<li class="flyLine">
+				<i class="flyline"></i>
+				<i class="flyline delay03"></i>
+				<i class="flyline delay05"></i>
+				<i class="flyline delay03"></i>
+			</li>
+			<li class="rect rect2">
+				<span class="left">
+					<span class="icon icon-caiji"></span>
+					<span>采集数据</span>
+				</span>
+				<span class="line"></span>
+				<span class="right">
+					<span>累计采集图片</span>
+					<span><i id="menu_count2" class="flipInX" style="display: inline-block;">598</i>张</span>
+				</span>
+			</li>
+			<li class="flyLine">
+				<i class="flyline"></i>
+				<i class="flyline delay1"></i>
+				<i class="flyline delay12"></i>
+				<i class="flyline delay1"></i>
+			</li>
+			<li class="rect rect3">
+				<span class="left">
+					<span class="icon icon-yujing"></span>
+					<span>对比预警</span>
+				</span>
+				<span class="line"></span>
+				<span class="right">
+					<span>累计对比专利次数</span>
+					<span><i id="menu_count3" class="flipInX" style="display: inline-block;">1290</i>次</span>
+				</span>
+			</li>
+			<li class="flyLine">
+				<i class="flyline"></i>
+				<i class="flyline delay25"></i>
+				<i class="flyline delay28"></i>
+				<i class="flyline delay25"></i>
+			</li>
+			<li class="rect rect4">
+				<span class="left">
+					<span class="icon icon-chuli"></span>
+					<span>处理</span>
+				</span>
+				<span class="line"></span>
+				<span class="right">
+					<span>监控任务</span>
+					<span><i id="menu_count4" class="flipInX" style="display: inline-block;">1596</i>件</span>
+				</span>
+			</li>
+		</ul>
+		<div class="slide-panel clearfix">
+			<div class="penel-in cur">
+				<div class="slide-con1 clearfix">
+					<div class="col-12">
+						<div class="title">专利产品分布</div>
+						<div id="mychart1" style="height: 60vh"></div>
+					</div>
+					<div class="col-12">
+						<div class="title">专利剩余保护期情况</div>
+						<div id="mychart2" style="height: 60vh"></div>
+					</div>
+				</div>
+			</div>
+			<div class="penel-in">
+				<div class="slide-con2">
+					<ul class="shangjia">
+						<li><img src="images/tb.png" class="float"></li>
+						<li><img src="images/jd.png" class="float delay1"></li>
+						<li><img src="images/snyg.png" class="float delay07"></li>
+						<li><img src="images/zh.png" class="float delay04"></li>
+					</ul>
+					<canvas id="canvas1" class="canvas1"></canvas>
+					<ul class="platform" id="platform">
+						<!-- <li id="platformImg1">
+							<img src="images/slide2/1.jpg" class="zoomIn">
+						</li> -->
+					</ul>
+					<ul class="platformGal" id="platformGal">
+						<!-- <li><img src="images/slide2/1.jpg" alt=""></li>
+						<li><img src="images/slide2/1.jpg" alt=""></li> -->
+				</div>
+			</div>
+			<div class="penel-in">
+				<div class="slide-con3 clearfix">
+					<div class="col-12 slide-con3-left" id="slide-con3-left">
+						<div class="zltxt">
+							<div class="zltxt-wrap" id="zltxt">
+								<div class="swiper-wrapper">
+									<!-- <div class="swiper-slide">ZL201530142659.0</div> -->
+								</div>
+						</div>
+						</div>
+						<div class="zlcon">
+							<p class="zytit">专<br>利<br>库</p>
+							<div class="zyimg">
+								<div class="zyimg-wrap" id="zlimg">
+									<div class="swiper-wrapper">
+										<!-- <div class="swiper-slide">
+											<img src="images/slide3/zl1/1.png" alt="">
+											<img src="images/slide3/zl1/2.png" alt="">
+											<img src="images/slide3/zl1/3.png" alt="">
+											<img src="images/slide3/zl1/4.png" alt="">
+											<img src="images/slide3/zl1/5.png" alt="">
+											<img src="images/slide3/zl1/6.png" alt="">
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<span class="zymask"></span>
+						</div>
+						<img src="images/slide3/zl1/1.png" class="flyimg" id="flyimg">
+						<div class="slide3-scan zlscan">
+							<div class="scan-con" id="zl-scan-con">
+								<!-- <img src="images/slide3/zl1/1.png" class="scan-img"> -->
+								<span class="scan-net"></span>
+								<span class="scan-line" id="scan-line"></span>
+							</div>
+							<p class="scan-par" id="scan-par"></p>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="sjycon">
+							<p class="zytit">数<br>据<br>源<br>库</p>
+							<div class="zyimg">
+								<div class="zyimg-wrap" id="sjyimg">
+									<div class="swiper-wrapper">
+										<!-- <div class="swiper-slide>
+											<img src="images/slide3/compare/1.jpg" alt="">
+											<img src="images/slide3/compare/2.jpg" alt="">
+											<img src="images/slide3/compare/3.jpg" alt="">
+											<img src="images/slide3/compare/4.jpg" alt="">
+											<img src="images/slide3/compare/5.jpg" alt="">
+											<img src="images/slide3/compare/6.jpg" alt="">
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<span class="zymask"></span>
+						</div>
+						<div class="slide3-scan sjyscan">
+							<div class="scan-con" id="sjy-scan-con">
+								<!-- <img src="images/slide3/zl1/1.png" class="scan-img"> -->
+							</div>
+							<p class="scan-par">相似度&nbsp;<i id="scan-xsd"></i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="penel-in">
+				<div class="slide-con4">
+					<div class="slide-con4-left fl">
+						<div class="circle">
+							<div class="circle-in yellowtxt">
+								<i style="display: inline-block;" class="flipInX" id="circleNum1">8542</i>件
+								<span class="circle-loader rotate"></span>
+							</div>
+							<p>人工判定产品数</p>
+						</div>
+						<div class="circle">
+							<div class="circle-in yellowtxt">
+								<i style="display: inline-block;" class="flipInX" id="circleNum2">587</i>件
+								<span class="circle-loader rotate"></span>
+							</div>
+							<p>涉嫌侵权产品数</p>
+						</div>
+						<div class="circle">
+							<div class="circle-in yellowtxt">
+								<i style="display: inline-block;" class="flipInX" id="circleNum3">495</i>份
+								<span class="circle-loader rotate"></span>
+							</div>
+							<p>生成报告量</p>
+						</div>
+					</div>
+					<div class="slide-con4-right">
+						<div class="title">待处理监控任务： <i class="flipInX" id="jkTask" style="display: inline-block;">9</i>件</div>
+						<div class="tablenor" style="margin-top: 2.8vh;">
+							<table>
+								<thead>
+									<tr>
+										<td width="12%">监控任务编号</td>
+										<td width="12%">专利编号</td>
+										<td width="21%">专利名称</td>
+										<td width="20%">专利权人</td>
+										<td width="12.5%">专利公告日期</td>
+										<td width="12.5%">任务创建日期</td>
+										<td width="10%">待人工判定产品数</td>
+									</tr>
+								</thead>
+							</table>
+							<div class="jt_scroll" style="height: 54vh;">
+								<table>
+									<tbody id="tableData">
+										<tr>
+											<td width="12%">1022</td>	
+											<td width="12%">CN 3247923747</td>	
+											<td width="21%">刀具（D107）</td>
+											<td width="20%">	 广东朗马厨房用品有限公司  </td>
+											<td width="12.5%">	2018/9/9</td>
+											<td width="12.5%">	2018/9/9</td>
+											<td width="10%">	14</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="javascript:;" class="jianbie" id="jianbie">鉴别引擎</a>
+	</div>
+</div>
+<div class="popbg" id="popbg"></div>
+<div class="pop" id="pop1">
+	<div class="poptit">鉴别引擎</div>
+	<div class="popcon">
+		<div class="popSearch" id="popSearch">
+			<input type="text" placeholder="" class="inptzlh" id="inptzlh">
+			<label for="imgInput" class="imgInputLab"></label>
+			<input type="file" class="imgInput" id="imgInput" hidden="true">
+			<button class="popserBth" id="popserBth"><span class="icon icon-search"></span>搜索</button>
+		</div>
+		<div class="popSerDet" id="popSerDet">
+			<div class="txt">
+				对比产品：<i id="compareNum" class="yellowtxt"></i>个，相似度高于<i class="filterSemBlance yellowtxt">90</i>%的<i class="yellowtxt" id="filterNum"></i>个，请做进一步人工判定
+			</div>
+			<div class="compare">
+			</div>
+			<div class="overPerImg">
+				<p class="popnortit margin-top10">相似度高于<em class="filterSemBlance">90</em>%的产品：</p>
+				<div class="popslide">
+					<div id="distinguishPics" class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="popsliPart">
+								<div class="left">
+									<p class="tit">专业平剪牙剪打薄美发剪刀套餐</p>
+									<p class="desc desc1">产品来源： 天猫</p>
+									<p class="desc desc2">外观相似度指数： <i class="yellowtxt font16">93.25%</i></p>
+									<div class="btn">
+										<a href="javascript:;" class="btn1">对比详情</a>
+										<a href="###" target="_blank" class="btn2">产品链接</a>
+									</div>
+								</div>
+								<div class="right zoomInImg">
+									<img src="images/slide3/compare/1.jpg" alt="">
+								</div>
+							</div>
+							<div class="popsliPart">
+								<div class="left">
+									<p class="tit">专业平剪牙剪打薄美发剪刀套餐</p>
+									<p class="desc desc1">产品来源： 天猫</p>
+									<p class="desc desc2">外观相似度指数： <i class="yellowtxt font16">93.25%</i></p>
+									<div class="btn">
+										<a href="javascript:;" class="btn1">对比详情</a>
+										<a href="###" target="_blank" class="btn2">产品链接</a>
+									</div>
+								</div>
+								<div class="right zoomInImg">
+									<img src="images/slide3/compare/1.jpg" alt="">
+								</div>
+							</div>
+							<div class="popsliPart">
+								<div class="left">
+									<p class="tit">专业平剪牙剪打薄美发剪刀套餐</p>
+									<p class="desc desc1">产品来源： 天猫</p>
+									<p class="desc desc2">外观相似度指数： <i class="yellowtxt font16">93.25%</i></p>
+									<div class="btn">
+										<a href="javascript:;" class="btn1">对比详情</a>
+										<a href="###" target="_blank" class="btn2">产品链接</a>
+									</div>
+								</div>
+								<div class="right zoomInImg">
+									<img src="images/slide3/compare/1.jpg" alt="">
+								</div>
+							</div>
+							<div class="popsliPart">
+								<div class="left">
+									<p class="tit">专业平剪牙剪打薄美发剪刀套餐</p>
+									<p class="desc desc1">产品来源： 天猫</p>
+									<p class="desc desc2">外观相似度指数： <i class="yellowtxt font16">93.25%</i></p>
+									<div class="btn">
+										<a href="javascript:;" class="btn1">对比详情</a>
+										<a href="###" target="_blank" class="btn2">产品链接</a>
+									</div>
+								</div>
+								<div class="right zoomInImg">
+									<img src="images/slide3/compare/1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="waiting" id="waiting">
+      <ul>
+          <Li></Li>
+          <Li></Li>
+          <Li></Li>
+      </ul>
+  </div>
+	<div class="popscaning" id="popscaning">
+		<div class="slide3-scan">
+			<div class="scan-con">
+				<img src="" class="scan-img" id="pop-scan-img">
+				<span class="scan-net"></span>
+				<span class="scan-line scanning"></span>
+			</div>
+			<p id="upLoadPic" class="scan-par">ZL201530142659.0</p>
+		</div>
+		<div class="progress">
+			<span class="progPer" id="progPer">0%</span>
+		</div>
+	</div>
+	<span class="close icon icon-close" id="close1"></span>
+</div>
+<div class="pop pop2" id="pop2">
+	<div class="poptit">鉴别引擎-对比详情</div>
+	<div class="clearfix" style="margin: 3.9062vh 0 2.6042vh 0;">
+		<div id="uploadPicName" class="txt fl">图片名称： 0045985</div>
+		<i id="mainComparePicName" class="txtfr fr">对比产品名称：专业平剪牙剪打薄美发剪刀套</i>
+	</div>
+	<div class="compareShow jt_scroll">
+		<div class="comPart">
+			<p>对比图片组1：</p>
+			<div class="admin">
+				<!-- <p>主视图</p> -->
+				<div class="zoomInImg img">
+					<img src="images/slide3/compare/1.jpg" alt="">
+					<i class="detailrect"></i>
+				</div>
+			</div>
+			<div class="charast">
+				<p>形状近似</p>
+				<p>图案相同</p>
+				<p>色彩相同</p>
+			</div>
+			<div class="admin">
+				<p>图片1</p>
+				<div class="zoomInImg img">
+					<img src="images/slide3/compare/1.jpg" alt="">
+					<i class="detailrect"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<span class="close icon icon-return" id="close2"></span>
+</div>
+<script id="distinguishPicItem" type="text/html">
+  <div class="popsliPart">
+    <div class="left">
+      <p class="tit"><%= item.compProdName %></p>
+      <p class="desc desc1">产品来源： <%= item.prodChanel %></p>
+      <p class="desc desc2">
+        外观相似度指数： <i class="yellowtxt font16"><%= item.semBlance %>%</i>
+      </p>
+      <div class="btn">
+        <a href="javascript:;" class="btn1" data-prodid="<%= item.compProdId %>">对比详情</a>
+        <a href="<%= item.prodWebLink %>" target="_blank" class="btn2">产品链接</a>
+      </div>
+    </div>
+    <div class="right zoomInImg">
+      <img src="<%=item.picList[0].picUrl%>" alt="" />
+    </div>
+  </div>
+</script>
+<script id="comparePartItem" type="text/html">
+	<% for(var i = 0; i < compareList.length; i++) { %>
+		<div class="comPart">
+			<p>对比图片组：<%=i+1%></p>
+			<div class="admin">
+				<!-- <p>主视图</p> -->
+				<div class="zoomInImg img">
+					<img src="<%= compareList[i].upLoadPicSrc %>" alt="">
+					<i class="detailrect"></i>
+				</div>
+			</div>
+			<div class="charast">
+				<% for(var j = 0; j < compareList[i].detailInfo.length; j++) { %>
+				<p><%= compareList[i].detailInfo[j].similTerm %></p>
+				<% } %>
+			</div>
+			<div class="admin">
+				<p><%=compareList[i].comPicName %></p>
+				<div class="zoomInImg img">
+					<img src="<%=compareList[i].comPicSrc %>" alt="">
+					<i class="detailrect"></i>
+				</div>
+			</div>
+		</div>
+		<% } %>
+</script>
+<script src="js/jquery.min.js"></script>	
+<script src="js/echarts-all.js"></script>	
+<script src="js/echarts4.1.0.min.js"></script>	
+<script src="js/swiper-4.3.3.min.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/template.min.js"></script>
+<script src="js/index/common.js"></script>
+<script src="js/index/moveObj2.js"></script>
+<script src="js/apiService.js"></script>
+<script src="js/index/dataFormatUtils.js"></script>
+<script src="js/index/chart.js"></script>
+<script src="js/index/index.js"></script>
+<script src="js/index/index_new.js"></script>
+</body>
+</html>

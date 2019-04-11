@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>广东知识产权首页</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <link rel="stylesheet" href="../css/myPagination.css" />
+    <link rel="stylesheet" href="../css/gd/index.css" />
+  </head>
+  <body>
+    <div class="doc gd-doc">
+      <div class="header header-gd">
+        <ul class="menu">
+          <li class="cur"><a href="index.html">会展案件</a></li>
+          <li><a href="../index.html">专利外观线上侵权假冒鉴别</a></li>
+        </ul>
+      </div>
+      <div class="wrapper ">
+        <div class="first-floor clearfix">
+          <div class="col-8">
+            <div class="title">即搜</div>
+            <div class="seachBox">
+              <input type="text" name="user_search" placeholder="" />
+              <span><i class="icon icon-search"></i>搜 索</span>
+            </div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide-title">行业类型</div>
+                  <ul class="type-list clearfix">
+                    <li class="item">家居用品</li>
+                    <li class="item">
+                      摩托车
+                    </li>
+                    <li class="item">
+                      家用电器
+                    </li>
+                    <li class="item">
+                      餐厨用具
+                    </li>
+                    <li class="item">电子消费品</li>
+                    <li class="item">卫浴设备</li>
+                    <li class="item">玻璃工艺品</li>
+                    <li class="item">箱包</li>
+                    <li class="item">
+                      礼品及赠品
+                    </li>
+                    <li class="item">家具</li>
+                    <li class="item">家居装饰品</li>
+                    <li class="item">办公文具</li>
+                    <li class="item">
+                      电子消费品及信息产品
+                    </li>
+                    <li class="item">卫浴设备</li>
+                    <li class="item">园林用品</li>
+                    <li class="item">玩具</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-title">行业类型</div>
+                  <ul class="type-list clearfix">
+                    <li class="item">摩托车</li>
+                    <li class="item">
+                      照明产品
+                    </li>
+                    <li class="item">
+                      体育及旅游休闲用品
+                    </li>
+                    <li class="item">
+                      建筑及装饰材料
+                    </li>
+                    <li class="item">电子电气产品</li>
+                    <li class="item">节日用品</li>
+                    <li class="item">工具</li>
+                    <li class="item">汽车配件</li>
+                    <li class="item">
+                      通用机械、小型加工机械及工业零部件
+                    </li>
+                    <li class="item">五金</li>
+                    <li class="item">大型机械及设备</li>
+                    <li class="item">家居装饰品</li>
+                    <li class="item">
+                      电子及家电
+                    </li>
+                    <li class="item">工艺陶瓷</li>
+                    <li class="item">家用纺织品</li>
+                    <li class="item">食品</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide-title">行业类型</div>
+                  <ul class="type-list clearfix">
+                    <li class="item">新能源</li>
+                    <li class="item">
+                      宠物用品
+                    </li>
+                    <li class="item">
+                      地毯及挂毯
+                    </li>
+                    <li class="item">
+                      工程农机（室内）
+                    </li>
+                    <li class="item">医药保健品及医疗器械</li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-16">
+            <div class="title">历届会展专利投诉案件量</div>
+            <div class="chart1" id="chart1"></div>
+          </div>
+        </div>
+        <div class="second-floor clearfix">
+          <div class="col-6">
+            <div class="title">即搜数据统计</div>
+            <div class="chart2">
+              <div class="chart-content chartAnimation">
+                <div class="caseNum">
+                  <em class="">39476</em>
+                  <p>案件总量</p>
+                </div>
+                <div data-type="1" class="circleAnimation circleItem topleft">
+                  按处理<br />结果分
+                </div>
+                <div data-type="2" class="circleAnimation circleItem topright">
+                  按案件<br />类型分
+                </div>
+                <div
+                  data-type="3"
+                  class="circleAnimation circleItem bottomleft"
+                >
+                  按时间分
+                </div>
+                <div
+                  data-type="4"
+                  class="circleAnimation circleItem bottomright"
+                >
+                  按是否<br />涉外分
+                </div>
+                <div data-tip="1" class="tip tl-info">
+                  <p>不涉嫌侵权<em>21819</em></p>
+                  <p>涉嫌侵权<em>15261</em></p>
+                  <p>撤诉<em>2396</em></p>
+                </div>
+                <div data-tip="2" class="tip tr-info">
+                  <p>发明<em>2838</em></p>
+                  <p>使用新型<em>8135</em></p>
+                  <p>外观设计<em>28504</em></p>
+                </div>
+                <div data-tip="3" class="tip bl-info">
+                  <p>2018年<em>5595</em></p>
+                  <p>2017年<em>5036</em></p>
+                  <p>2016年<em>4633</em></p>
+                  <p>2015年<em>3799</em></p>
+                  <p>其它<em>20413</em></p>
+                </div>
+                <div data-tip="4" class="tip br-info">
+                  <p>不涉外<em>29197</em></p>
+                  <p>涉外<em>10279</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="chart3_title" class="title">122期会展投诉案件处理结果</div>
+            <div class="chart3" id="chart3"></div>
+          </div>
+          <div class="col-6">
+            <div id="chart4_title" class="title">122期热门侵权行业</div>
+            <div class="chart4" id="chart4"></div>
+          </div>
+          <div class="col-6">
+            <div id="table1_title" class="title">122期会展侵权黑名单企业</div>
+            <div class="tablenor" style="margin-top: 2.8vh;">
+              <table>
+                <thead>
+                  <tr>
+                    <td width="70%">专利侵权黑名单榜</td>
+                    <td width="30%">认定侵权次数</td>
+                  </tr>
+                </thead>
+              </table>
+              <div class="jt_scroll" style="height: 30.3vh;">
+                <table
+                  id="table1Data"
+                  class="table1Animation blackList-tb"
+                ></table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pop-bg pop-searchWrapper">
+      <div class="pop" id="searchPanel">
+        <span class="close icon icon-close"></span>
+        <div class="poptit">即搜</div>
+        <div class="pop-search">
+          <input
+            type="text"
+            name="user_search"
+            placeholder="请输入档案编号/权属号/投诉展品/投诉方/被投诉方"
+          />
+          <span id="popSearch"><i class="icon icon-search"></i>搜 索</span>
+        </div>
+        <div class="re-cont dl-item-box jt_scroll">
+          <dl class="dl-item">
+            <dt>按行业类型：</dt>
+            <dd data-type="industryType">
+              <span class="all active">全部</span><span class="">家居用品</span
+              ><span class="">摩托车</span><span class="">家用电器</span
+              ><span class="">餐厨用具</span><span class="">电子消费品...</span
+              ><span class="">卫浴设备</span><span class="">玻璃工艺品</span
+              ><span class="">箱包</span><span class="">礼品及赠品</span
+              ><span class="">家具</span><i class="more more-hyType">更多</i
+              ><span class="">家居装饰品</span><span class="">办公文具</span
+              ><span class="">礼品及赠品</span><span class="">家具</span
+              ><span class="">玻璃工艺品</span>
+            </dd>
+          </dl>
+          <dl class="dl-item">
+            <dt>按展会：</dt>
+            <dd data-type="exhibitionType">
+              <span class="all active">全部</span><span>中博会</span
+              ><span>广交会</span><span>其他</span>
+            </dd>
+          </dl>
+          <dl class="dl-item">
+            <dt>按时间：</dt>
+            <dd data-type="year">
+              <span class="all active">全部</span><span>2017年</span
+              ><span>2016年</span><span>2015年</span><span>2014年</span
+              ><span>2013年</span><span>2012年</span><span>2011年</span
+              ><i class="more more-time">更多</i><span>2010年</span
+              ><span>2009年</span><span>2008年</span><span>2007年</span
+              ><span>2006年</span><span>2005年</span><span>2004年</span>
+            </dd>
+          </dl>
+          <dl class="dl-item">
+            <dt>按认定结果：</dt>
+            <dd data-type="resultType">
+              <span class="all active">全部</span><span class="">涉嫌侵权</span
+              ><span class="">不侵权</span><span class="">撤诉</span>
+            </dd>
+          </dl>
+          <dl class="dl-item">
+            <dt>按投诉类型：</dt>
+            <dd data-type="complaintType">
+              <span class="all active">全部</span><span class="">发明</span
+              ><span class="">外观设计</span><span class="">实用新型</span>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="pop-bg pop-searchResultsWrapper">
+      <div class="pop" id="searchResultPanel">
+        <span class="close icon icon-close"></span>
+        <div class="poptit">即搜</div>
+        <div class="waiting" id="waiting">
+          <ul>
+            <Li></Li>
+            <Li></Li>
+            <Li></Li>
+          </ul>
+        </div>
+        <div class="re-cont re-cont2">
+          <div class="pop-search pop-search2">
+            <input
+              type="text"
+              name="user_search"
+              placeholder="请输入档案编号/权属号/投诉展品/投诉方/被投诉方"
+            />
+            <span id="popSearch_ID"><i class="icon icon-search"></i>搜 索</span>
+          </div>
+          <div class="tip">为您搜索到<em>19</em>条记录</div>
+          <div class="jt_scroll resultItems">
+            <script id="tpl" type="text/html">
+              <% for(var i = 0; i < list.length; i++) { %>
+                <div class="result-item tablenor">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th width="7%">档案编号</th>
+                          <th width="12%">权属号</th>
+                          <th width="8%">认定结果</th>
+                          <th width="15%">投诉展品</th>
+                          <th width="18%">投诉方</th>
+                          <th width="20%">被投诉方</th>
+                          <th width="10%">展会</th>
+                          <th width="10%">行业类型</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td><%= list[i].fileNum %></td>
+                              <td><%= list[i].recordNum %></td>
+                              <td><%= list[i].result %></td>
+                              <td><%= list[i].complaintExhibit %></td>
+                              <td><%= list[i].complainant %></td>
+                              <td><%= list[i].beingComplaint %></td>
+                              <td><%= exhibition_trans(list[i].exhibitionType) %></td>
+                              <td><%= list[i].industryType %></td>
+                            </tr>
+                      </tbody>
+                    </table>
+                    <div class="btns">
+                      <button data-fileid="<%= list[i].caseFileId %>">案件档案</button>
+                      <button data-fileid="<%= list[i].acceptBookId %>">受理书</button>
+                      <button data-fileid="<%= list[i].closingAgreementId %>">结案书</button>
+                    </div>
+                </div>
+              <% } %>
+            </script>
+          </div>
+          <div id="pagination" class="pagination self-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/swiper-4.3.3.min.js"></script>
+    <script src="../js/myPagination.js"></script>
+    <script src="../js/template.min.js"></script>
+    <script src="../js/echarts-all.js"></script>
+    <script src="../js/echarts4.1.0.min.js"></script>
+    <script src="../js/highcharts.js"></script>
+    <script src="../js/highcharts-3d.js"></script>
+    <script src="../js/jquery.nicescroll.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/apiService.js"></script>
+    <script src="../js/gd/dataFormatUtils.js"></script>
+    <script src="../js/gd/charts.js"></script>
+    <script src="../js/gd/index.js"></script>
+  </body>
+</html>
