@@ -1,10 +1,10 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 //数据接口服务地址
-axios.defaults.baseURL = 'http://132.122.1.207:9990'
+axios.defaults.baseURL = 'http://133.12.1.247:9990'
 
 //文档服务地址
-axios.defaults.serviceURL = 'http://183.6.139.154:3501'
+axios.defaults.serviceURL = 'http://133.26.139.154:3701'
 
 axios.interceptors.request.use(
 	config => {
